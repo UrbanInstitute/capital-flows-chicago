@@ -1,0 +1,383 @@
+div.chartcontainer {
+  width: 100%;
+  max-width: 760px;
+  margin: 64px auto;
+}
+
+div.chartcontainer_fullbleed{
+  width: 100%;
+  max-width: 1160px;
+  margin: 64px auto;
+}
+
+body {
+  font-family: "Lato", helvetica, sans-serif;
+  box-sizing: border-box;
+  color: #353535;
+  font-size: 20px;
+  line-height: 32.5px;
+  margin: 0;
+  padding: 0;
+}
+
+/*HEADER*/
+#header-pinned {
+  font: 20px Lato;
+  color: #000;
+  font-weight: 400;
+  /* margin-right: 100px; */
+  position: fixed;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  background: #fff;
+  border-bottom: 2px solid #eee;
+  z-index: 5;
+  -webkit-transition: top 0.25s linear;
+  -moz-transition: top 0.25s linear;
+  -o-transition: top 0.25s linear;
+  transition: top 0.25s linear;
+}
+
+.is-visible {
+  top: 0px !important;
+}
+
+#header-pinned .content {
+  height: 49px;
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#header-pinned *{
+  color:#333;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+#header-pinned  .subnav a {
+  color: #1696d2;
+}
+
+#header-pinned .subnav a:hover{
+  color:#000;
+}
+
+#header-pinned .site-logo {
+  display: block;
+  width: 34px;
+  height: 34px;
+  position: absolute;
+  left: 10px;
+  margin-top: 7px;
+  background: url(https://www.urban.org/sites/all/themes/urban/images/logo-mini-dark.png) no-repeat;
+  background-size: 34px 34px;
+}
+
+#header-pinned .title {
+  font-size: 14px;
+  line-height: 49px;
+  margin: 0 65px 0 55px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+#header-pinned .title {
+  font-size: 20px;
+  margin-left: 80px;
+}
+
+#header-pinned .title span,
+#header-pinned .title a {
+  display: inline;
+}
+/*END HEADER*/
+
+/*CSS FEATURE*/
+.headerimage{
+  position: relative;
+  overflow: visible;
+  width: 100%;
+  height: 434px;
+  z-index: -1;
+}
+
+.headerwrapper{
+  padding-top: 120px;
+}
+
+#heroimage{
+  background-image: url(../img/header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-size: 320px; */
+  width: 100%;
+  background-position: top;
+  margin-top: 50px;
+}
+
+#container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#container > img {
+  width: 100%;
+  display: block;
+  max-width: 355px;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+
+#container > h1 {
+  color: #000000;
+  width: 100%;
+  max-width: 800px;
+  margin: 0px auto;
+  /* margin-top: 64px;
+  margin-bottom: 30px; */
+  text-align: center;
+  line-height: 48px;
+  font-size: 48px;
+}
+
+.subheds {
+  font-size:36px !important;
+  padding-top: 80px;
+  padding-bottom: 12px;
+}
+
+#container > h2 {
+  font-weight: 400;
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+#container > hr {
+  background-color: #D2D2D2;
+  width: 100%;
+  max-width: 760px;
+  border: none;
+  height: 1px;
+  margin: 0px auto;
+  margin-bottom: 30px;
+}
+
+#date {
+  font-size: 14px;
+  text-align: center;
+  margin: 0px auto;
+  margin-bottom: 30px;
+  color: #696969;
+}
+
+.eyebrow{
+  padding-top: 54px;
+  font-size: 14px;
+  color: #696969  !important; 
+  text-align: center;
+  margin: 0px auto;
+  text-transform: uppercase;
+}
+
+.eyebrow a:hover{
+  padding-top: 50px;
+  font-size: 14px;
+  text-decoration: underline;
+  color: #12719E !important;
+  text-align: center;
+  margin: 0px auto;
+  text-transform: uppercase;
+}
+
+#share-icons {
+  margin-bottom: 48px;
+  font-size: 12px;
+  text-align: center;
+}
+
+#share-icons a {
+  margin-right: 15px;
+}
+
+#share-icons img {
+  width: 24px;
+}
+
+#share-icons a:last-of-type {
+  margin-right: 0px;
+}
+
+p.blockText {
+  width: 100%;
+  max-width: 760px;
+  margin: 20px auto;
+}
+
+a, a:hover, a:visited {
+  color: #1696d2;
+  text-decoration: none;
+}
+/*END CSS FEATURE*/
+
+/*CSS FOOTER*/
+footer {
+  background-color: #ffffff;
+  margin-top: 80px;
+  padding-top: 0px;
+  padding-bottom: 45px;
+}
+
+#containerFooter {
+  width: calc(100% - 40px);
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+#containerFooter > .blocks {
+  width: 100%;
+  margin: 0 auto;
+}
+
+#containerFooter > .blocks > p {
+  font-size: 20px;
+  line-height: 32.5px;
+}
+
+footer a.btn {
+  color: #FFF;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.125rem;
+  border: 2px solid #1696d2;
+  padding: 12px 16px;
+  line-height: 23px;
+  display: inline-block;
+  margin-top: 1.4em;
+  margin-right: 0.9em;
+  background-color: #1696d2;
+}
+
+footer a.btn svg {
+  margin-left: 0.5em;
+  fill: #FFF;
+}
+
+footer a.btn:hover {
+  color: #FFF;
+  background-color: #12719e;
+  border: 2px solid #12719e;
+}
+
+footer a.btn:hover svg {
+  fill: #FFF;
+}
+
+#containerFooter > div:nth-child(2) > p:nth-child(2) {
+  font-style: italic;
+}
+
+#containerFooter > .blocks > h3 {
+  font-weight: 200;
+  text-transform: uppercase;
+  font-size: 30px;
+  color: #000000;
+  margin: 0 auto;
+  margin-top: 60px;
+  margin-bottom: 10px;
+}
+/*END CSS FOOTER*/
+
+/*MEDIA QUERIES*/
+@media screen and (max-width: 1200px) {
+  #container {
+    margin: 0 3%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #container > img {
+    margin-top: 80px;
+    margin-bottom: 24px;
+  }
+
+  #container > h1 {
+    color: #000000;
+    font-size: 36px;
+    line-height: 45px;
+    margin-bottom: 16px;
+  }
+
+  .subheds {
+  font-size:30px !important;
+  padding-top: 64px;
+  padding-bottom: 4px;
+  }
+
+  div.chartcontainer {
+  width: 100%;
+  max-width: 760px;
+  margin: 32px auto;
+  }
+
+  div.chartcontainer_fullbleed{
+  width: 100%;
+  max-width: 1160px;
+  margin: 32px auto;
+  }
+
+  #container > h2 {
+    margin-bottom: 16px;
+  }
+
+  #date {
+    margin-bottom: 24px;
+  }
+
+  #container > hr {
+    margin-bottom: 24px;
+  }
+
+  #share-icons {
+    margin-bottom: 24px;
+    line-height: 27px;
+  }
+
+  p.blockText {
+    font-size: 18px;
+  }
+
+  /*CSS FOOTER <767px*/
+  footer {
+    margin-top: 48px;
+  }
+
+  #containerFooter > .blocks > h3 {
+    font-size: 24px;
+  }
+
+  #containerFooter > .blocks > h3:first-of-type {
+    margin-top: 0;
+  }
+
+  #containerFooter > .blocks > p {
+    font-size: 18px;
+  }
+  /*END CSS FOOTER <767px*/
+}
+
+/*HOVER MEDIA QUERY*/
+/*This makes hovers work only in desktop or devices with mouses or similar. It helps to avoid weird behaviours on mobile. It doesn't work on IE, so if the hover is essential, avoid this system*/
+@media (hover: hover) and (pointer: fine) {
+
+  a.download:hover {
+    background-color: #000000;
+    color: #ffffff;
+  }
+}
+/*END HOVER MEDIA QUERY*/

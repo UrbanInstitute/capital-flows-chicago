@@ -1,0 +1,1978 @@
+@charset "UTF-8";
+/* CSS Document */
+/************************** BEGIN GRAPHIC 1 **************************/
+      #urb-tooltip1 {
+                background-color: #FFF;
+                    -webkit-border-radius: 5px;
+                    -moz-border-radius: 5px;
+                border-radius: 5px;
+                    -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+                    -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+                box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+                height: auto;
+              padding: 15px;
+              opacity: 1;
+              pointer-events: none;
+                position: absolute;
+              width: 120px;
+              z-index: 1000;
+            }
+            #urb-tooltip1.hidden {
+              display: none;
+            }
+            #urb-tooltip1 p {
+        color:#000;
+                margin: 0;
+        font-family: 'Lato', Arial, Helvetica, sans-serif;
+        font-weight: normal;
+                font-size: 16px;
+                line-height: 20px;
+            }
+      #urb-tooltip1 p .urb-tooltip-number {
+        color:#1695d1;
+        font-weight:bold;
+      }
+      #urb-container1 {
+        box-sizing:border-box;
+        display:block;
+        float:left;
+        font-family: 'Lato', Arial, Helvetica, sans-serif;
+    /*    max-height:1140px;*/
+        max-width:760px;
+        padding:0px;
+        position:relative;
+      }
+      #urb-container1 strong {
+        font-family: 'Lato', Arial, Helvetica, sans-serif;
+        font-weight: bold;
+      }
+      #urb-container1 * {
+        box-sizing:border-box;
+        margin:0;
+        padding:0;
+      }
+      #urb-container1 h2 {
+        color:#000000;
+        font-family: 'Lato', Arial, Helvetica, sans-serif;
+        font-size:22px;
+        font-weight:bold;
+        line-height: 26px;
+        margin-bottom:0px;
+        margin-top:0px;
+        padding-bottom:10px;
+      }
+      #urb-container1 h2 span.urb-data1-cat {
+        color:#1695d1;
+      }
+      #urb-container1 h3 {
+        color:#000000;
+        font-family: 'Lato', Arial, Helvetica, sans-serif;
+        font-size:18px;
+        font-style: italic;
+        font-weight:normal;;
+        line-height:22px;
+        margin-bottom:0px;
+        margin-top:0px;
+        padding-bottom:10px;
+      }
+      #urb-container1 .urb-container1-column {
+        display: block;
+        float: left;
+        width: 15%;
+      }
+      #urb-container1 .urb-container1-chart {
+        display: block;
+        float: left;
+        padding: 0 0 0 20px;
+        width: 85%;
+      }     
+      #urb-container1 #urb-graphic-container1 {
+          display: inline-block;
+          position: relative;
+          width: 100%;
+          padding-bottom: 0%; /* aspect ratio */
+          vertical-align: top;
+          overflow: hidden;
+      }
+      #urb-container1 .urb-button-container {
+        display:block;
+        float:left;
+        height:auto;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        width:100%;
+      }
+      #urb-container1 .urb-button-container p {
+        display: none;
+      }
+      #urb-container1 .urb-button-container .urb-button {
+        background-color:#eaeaea;
+        border-radius: 5px;
+        color:#000000;
+        cursor:pointer;
+        display:block;
+        float:left;
+        font-family: 'Lato', Arial, Helvetica, sans-serif;
+        font-size:14px;
+        font-weight:normal;
+        height:30px;
+        line-height:30px;
+        margin:0 0 8px 0;
+        padding:0;
+        text-align:center;
+        text-decoration: none;
+        width:100%;
+      }
+      #urb-container1 .urb-button-container .urb-button:hover {
+        background-color:#BBBBBB;
+      }
+      #urb-container1 .urb-button-container .urb-button.urb-active1 {
+        background-color:#12719e;
+        color:#FFF;
+        font-weight: bold;
+      }
+      #urb-container1 .urb-button-container .urb-button.urb-active1:hover {
+        background-color:#1695d1;
+      }
+      #urb-container1 #urb-chicago-graphic1 circle {
+        cursor:pointer;
+        fill:#FFFFFF;
+        stroke:#1695d1;
+        stroke-width:1px;
+      }
+      #urb-container1 #urb-chicago-graphic1 circle:hover {
+        fill:#1695d1 !important;
+      }
+      #urb-container1 #urb-chicago-graphic1 circle[data-city='Chicago, IL'],
+      #urb-container1 #urb-chicago-graphic1 circle[data-city='Chicago, IL']:hover {
+        cursor:default !important;
+        fill:#12719e !important;
+        stroke:#12719e !important;
+        stroke-width:1px !important;
+      }
+      #urb-container1 #urb-chicago-graphic1 .urb-label-chicago1 text,
+      #urb-container1 #urb-chicago-graphic1 .urb-label-chicago2 text {
+        font-size:16px;
+        font-weight:bold;
+      }
+      #urb-container1 #urb-chicago-graphic1 .urb-line-chicago {
+        display: block;
+      }
+      #urb-container1 #urb-chicago-graphic1 .urb-line-nochicago {
+        display: none;
+      }
+      #urb-container1 #urb-chicago-graphic1 .axis1 path {
+        display: none;
+      }
+      #urb-container1 #urb-chicago-graphic1 .y1.axis1 .tick text {
+        fill:#000;
+        font-size: 14px;
+        text-anchor:end;
+        transform: translate(55px,-10px);
+      }
+      #urb-container1 #urb-chicago-graphic1 .y1.axis1 .tick line {
+        stroke:#85a3ae;
+      }
+            @media screen and (max-width:720px) {       
+        #urb-container1 .urb-container1-column {
+          float: left;
+          height: 58px;
+          margin: 0 0 14px 0;
+          overflow: hidden;
+          position: relative;
+          width: 100%;
+        }
+        #urb-container1 .urb-container1-column.ub-menu-opened1 {
+          overflow: visible;
+        }
+        #urb-container1 .urb-container1-chart {
+          padding: 0;
+          width: 100%;
+        }
+        #urb-container1 .urb-button-container {
+          background-color:#FFF;
+          border-radius: 14px;
+          border:1px solid #12719E;
+          cursor: pointer;
+          height: 52px;
+          margin: 0 0 20px 0;
+          padding: 6px;
+          position: absolute;
+          z-index: 10;
+        }
+        #urb-container1 .urb-container1-column.ub-menu-opened1 .urb-button-container {
+                      -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+                      -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+                  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+          height: 287px;
+          margin: 0 0 0 0;
+        }
+        #urb-container1 .urb-button-container p {
+          background-color:transparent;
+          background-image: url("../img/bg-triangle.png");
+          background-repeat: no-repeat;
+          background-position: center 36px;
+          background-size: 18px 16px;
+          color:#FFF;
+          display: block;
+          float:left; 
+          font-family: 'Lato', Arial, Helvetica, sans-serif;
+          font-size:18px;
+          font-weight: bold;
+          height: 52px;
+          line-height: 38px;
+          text-align: center;
+          width: 100%;
+        }
+        #urb-container1 .urb-container1-column.ub-menu-opened1 .urb-button-container p {
+          display: none;
+        }
+        #urb-container1 .urb-button-container p span {
+          background-color:#12719E;
+          border-radius: 8px;
+          color:#FFF;
+          display: block;
+          float:left; 
+          font-family: 'Lato', Arial, Helvetica, sans-serif;
+          font-weight: bold;
+          height: 38px;
+          line-height: 38px;
+          text-align: center;
+          width: 100%;
+        }       
+        #urb-container1 .urb-button-container .urb-button {
+          background-color:#eaeaea;
+          border-radius: 0px;
+          color:#000000;
+          cursor:pointer;
+          display:block;
+          float:left;
+          font-family: 'Lato', Arial, Helvetica, sans-serif;
+          font-size:18px;
+          font-weight:normal;
+          height:39px;
+          line-height:38px;
+          margin:0;
+          padding:0 15px;
+          text-align:center;
+          text-decoration: none;
+          width:100%;
+        }
+        #urb-container1 .urb-button-container .urb-button.urb-button-01 {
+          border-top-left-radius: 8px;
+          border-top-right-radius: 8px;
+        } 
+        #urb-container1 .urb-button-container .urb-button.urb-button-07 {
+          border-bottom-left-radius: 8px;
+          border-bottom-right-radius: 8px;
+        }
+        #urb-container1 .urb-button-container .urb-button span {
+          border-bottom: 1px solid #85a3ae;
+          display: block;
+          width: 100%;
+        }
+        #urb-container1 .urb-button-container .urb-button:last-of-type span {
+          border-bottom: none;
+        }
+            }
+      @media screen and (max-width:480px) {
+        #urb-container1 h2 {
+          font-size:20px;
+          line-height:24px;
+          padding-bottom: 7px;
+        }
+        #urb-container1 h3 {
+          font-size:16px;
+          line-height:20px;
+          padding-bottom: 7px;
+        }
+      }
+/************************** END GRAPHIC 1 **************************/
+/************************** BEGIN GRAPHIC 2 **************************/
+      #urb-container2 {
+        box-sizing:border-box;
+        display:block;
+        float:left;
+        font-family: 'Lato', Arial, Helvetica, sans-serif;
+        max-width:760px;
+        padding:0px;
+        position:relative;
+      }
+      #urb-container2 strong {
+        font-family: 'Lato', Arial, Helvetica, sans-serif;
+        font-weight: bold;
+      }
+      #urb-container2 * {
+        box-sizing:border-box;
+        margin:0;
+        padding:0;
+      }
+      #urb-container2 h2 {
+        color:#000000;
+        font-family: 'Lato', Arial, Helvetica, sans-serif;
+        font-size:22px;
+        font-weight:bold;
+        line-height: 26px;
+        margin-bottom:0px;
+        margin-top:0px;
+        padding-bottom:10px;
+      }
+      #urb-container2 h2 span {
+        color:#1695d1;
+      }
+      #urb-container2 .urb-container2-chart {
+        display: block;
+        float: left;
+        padding: 0;
+        width: 100%;
+      }     
+      #urb-container2 #urb-graphic-container2 {
+        border-radius: 25px;
+          display: inline-block;
+        height: 540px;
+          position: relative;
+          width: 100%;
+          padding-bottom: 0%; /* aspect ratio */
+          vertical-align: top;
+          overflow: hidden;
+      }
+      #urb-container2 #urb-graphic-container2 .urb-graphic-container2-left {
+        border-right: 3px solid #FFF;
+        display: block;
+        float: left;
+        height: 100%;
+        width: 82%;
+      }
+      #urb-container2 #urb-graphic-container2 .urb-graphic-container2-right {
+        display: block;
+        float: left;
+        height: 100%;
+        width: 18%;
+      }
+      #urb-container2 #urb-graphic-container2 .urb-area2-valueSF2 {
+        background-color:#1695d1;
+        border-top: 3px solid #FFF;
+        height: 43%;
+        padding: 8px 0 0 12px;
+      }
+      #urb-container2 #urb-graphic-container2 .urb-area2-valueMF2 {
+        border-top: 3px solid #FFF;
+        background-color:#eb008a;
+        height: 53.84%;
+        padding: 8px 0 0 12px;
+      }
+      #urb-container2 #urb-graphic-container2 .urb-area2-valueSmallBiz2 {
+        background-color:#55b648;
+        border-top: 3px solid #FFF;
+        height: 23.08%;
+        padding: 8px 0 0 12px;
+      }
+      #urb-container2 #urb-graphic-container2 .urb-area2-valueNonRes2 {
+        background-color:#d1d1d1;
+        height: 57%;
+        padding: 8px 0 0 12px;
+      }
+      #urb-container2 #urb-graphic-container2 .urb-area2-valueMission2 {
+        background-color:#fcbe11;
+        border-top: 3px solid #FFF;
+        height: 12.82%;
+        padding: 8px 0 0 12px;
+      }
+      #urb-container2 #urb-graphic-container2 .urb-area2-valuePublic2 {
+        background-color:#000000;
+        height: 10.26%;
+        padding: 8px 0 0 12px;
+      }
+      #urb-container2 #urb-graphic-container2 p {
+        color:#000;
+        font-family: 'Lato', Arial, Helvetica, sans-serif;
+        font-size:16px;
+        font-weight:normal;
+        line-height:18px;
+        margin: 0;
+      }
+      #urb-container2 #urb-graphic-container2 .urb-area2-valuePublic2 p {
+        color:#FFF;
+      }
+      #urb-container2 #urb-graphic-container2 p.urb-text2-name {
+        font-size:18px;
+        font-weight:bold;
+        line-height:20px;
+        margin: 0;
+      }
+            @media screen and (max-width:640px) {       
+        #urb-container2 #urb-graphic-container2 {
+          border-radius: 20px;
+          height: 480px;
+        }
+        #urb-container2 #urb-graphic-container2 .urb-graphic-container2-left {
+          border-bottom: 3px solid #FFF;
+          border-right: none;
+          height: 82%;
+          width: 100%;
+        }
+        #urb-container2 #urb-graphic-container2 .urb-graphic-container2-right {
+          height: 18%;
+          width: 100%;
+        }       
+        #urb-container2 #urb-graphic-container2 .urb-area2-valueSF2 {
+          border-left:3px solid #FFF;
+          border-top: none;
+          float: left;
+          height: 100%;
+          width: 43%;
+          padding: 8px 0 0 10px;
+        }
+        #urb-container2 #urb-graphic-container2 .urb-area2-valueMF2 {
+          border-right: 3px solid #FFF;
+          border-top: none;
+          float: right;
+          height: 100%;
+          padding: 8px 0 0 10px;
+          width: 53.84%;
+        }
+        #urb-container2 #urb-graphic-container2 .urb-area2-valueSmallBiz2 {
+          border-right: 3px solid #FFF;
+          border-top: none;
+          float: right;
+          height: 100%;
+          padding: 8px 0 0 10px;
+          width: 23.08%;
+        }
+        #urb-container2 #urb-graphic-container2 .urb-area2-valueNonRes2 {
+          float: left;
+          height: 100%;
+          padding: 8px 0 0 10px;
+          width: 57%;
+        }
+        #urb-container2 #urb-graphic-container2 .urb-area2-valueMission2 {
+          border-right: 3px solid #FFF;
+          border-top: none;
+          float: right;
+          height: 100%;
+          padding: 0;
+          width: 12.82%;
+        }
+        #urb-container2 #urb-graphic-container2 .urb-area2-valuePublic2 {
+          float: right;
+          height: 100%;
+          padding: 0;
+          width: 10.26%;
+        }       
+        #urb-container2 #urb-graphic-container2 p {
+          font-size:13px;
+          line-height:15px;
+        }
+        #urb-container2 #urb-graphic-container2 p.urb-text2-name {
+          font-size:15px;
+          line-height:17px;
+        }
+        #urb-container2 #urb-graphic-container2 .urb-area2-valueMission2 span {
+          display: block;
+          -webkit-transform: rotate(-90deg) translate(28px,7px);
+          -moz-transform: rotate(-90deg) translate(28px,7px);
+          -o-transform: rotate(-90deg) translate(28px,7px);
+          -ms-transform: rotate(-90deg) translate(28px,7px);
+          transform: rotate(90deg) translate(28px,7px);
+          width:130%;
+        }
+        #urb-container2 #urb-graphic-container2 .urb-area2-valuePublic2 span {
+          display: block;
+          -webkit-transform: rotate(-90deg) translate(23px,7px);
+          -moz-transform: rotate(-90deg) translate(23px,7px);
+          -o-transform: rotate(-90deg) translate(23px,7px);
+          -ms-transform: rotate(-90deg) translate(23px,7px);
+          transform: rotate(90deg) translate(23px,7px);
+          width:130%;
+        }
+      }
+      @media screen and (max-width:480px) {
+        #urb-container3 h2 {
+          font-size:20px;
+          line-height:24px;
+          padding-bottom: 7px;
+        }
+      }
+/************************** END GRAPHIC 2 **************************/
+/************************** BEGIN GRAPHIC 3 **************************/
+      #urb-tooltip3 {
+                background-color: #FFF;
+                    -webkit-border-radius: 5px;
+                    -moz-border-radius: 5px;
+                border-radius: 5px;
+                    -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+                    -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+                box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+                height: auto;
+              padding: 15px;
+              opacity: 1;
+              pointer-events: none;
+                position: absolute;
+              width: 60px;
+              z-index: 1000;
+            }
+            #urb-tooltip3.hidden {
+              display: none;
+            }
+            #urb-tooltip3 p {
+        color:#000;
+                margin: 0;
+        font-family: 'Lato', Arial, Helvetica, sans-serif;
+        font-weight: normal;
+                font-size: 16px;
+                line-height: 20px;
+            }
+      #urb-tooltip3 p .urb-tooltip-number {
+        color:#1695d1;
+        font-weight:bold;
+      }
+      #urb-container3 {
+        box-sizing:border-box;
+        display:block;
+        float:left;
+        font-family: 'Lato', Arial, Helvetica, sans-serif;
+    /*    max-height:1140px;*/
+        max-width:760px;
+        padding:0px;
+        position:relative;
+      }
+      #urb-container3 strong {
+        font-family: 'Lato', Arial, Helvetica, sans-serif;
+        font-weight: bold;
+      }
+      #urb-container3 * {
+        box-sizing:border-box;
+        margin:0;
+        padding:0;
+      }
+      #urb-container3 h2 {
+        color:#000000;
+        font-family: 'Lato', Arial, Helvetica, sans-serif;
+        font-size:22px;
+        font-weight:bold;
+        line-height:26px;
+        margin-bottom:0px;
+        margin-top:0px;
+        padding-bottom:10px;
+      }
+      #urb-container3 h2 span.urb-data3-cat {
+        color:#1695d1;
+      }
+      #urb-container3 .urb-container3-column {
+        display: block;
+        float: left;
+        width: 15%;
+      }
+      #urb-container3 .urb-container3-chart {
+        display: block;
+        float: left;
+        padding: 0 0 0 20px;
+        width: 85%;
+      }     
+      #urb-container3 #urb-graphic-container3 {
+          display: inline-block;
+          position: relative;
+          width: 100%;
+          padding-bottom: 0%; /* aspect ratio */
+          vertical-align: top;
+          overflow: hidden;
+      }
+      #urb-container3 .urb-button-container {
+        display:block;
+        float:left;
+        height:auto;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        width:100%;
+      }
+      #urb-container3 .urb-button-container p {
+        display: none;
+      }
+      #urb-container3 .urb-button-container .urb-button {
+        background-color:#eaeaea;
+        border-radius: 5px;
+        color:#000000;
+        cursor:pointer;
+        display:block;
+        float:left;
+        font-family: 'Lato', Arial, Helvetica, sans-serif;
+        font-size:14px;
+        font-weight:normal;
+        height:30px;
+        line-height:30px;
+        margin:0 0 8px 0;
+        padding:0;
+        text-align:center;
+        text-decoration: none;
+        width:100%;
+      }
+      #urb-container3 .urb-button-container .urb-button:hover {
+        background-color:#BBBBBB;
+      }
+      #urb-container3 .urb-button-container .urb-button.urb-active3 {
+        background-color:#12719e;
+        color:#FFF;
+        font-weight: bold;
+      }
+      #urb-container3 .urb-button-container .urb-button.urb-active3:hover {
+        background-color:#1695d1;
+      }
+      #urb-container3 #urb-chicago-graphic3 circle {
+        cursor:pointer;
+        fill:#FCBE11;
+        stroke:#1695d1;
+        stroke-width:2px;
+      }
+      #urb-container3 #urb-chicago-graphic3 circle[data-year='2010'],
+      #urb-container3 #urb-chicago-graphic3 circle[data-year='2010']:hover,
+      #urb-container3 #urb-chicago-graphic3 circle[data-year='2020'],
+      #urb-container3 #urb-chicago-graphic3 circle[data-year='2020']:hover {
+        cursor:default !important;
+        fill:#FCBE11 !important;
+        stroke-width:3px !important;
+      }
+      #urb-container3 #urb-chicago-graphic3 .urb-label-first1 text {
+        font-size:16px;
+        font-weight:normal;
+      }
+      #urb-container3 #urb-chicago-graphic3 .urb-label-first2 text {
+        font-size:18px;
+        font-weight:bold;
+      }
+      #urb-container3 #urb-chicago-graphic3 .y3.axis3 path {
+        display: none;
+      }
+      #urb-container3 #urb-chicago-graphic3 .y3.axis3 .tick text {
+        fill:#000;
+        font-size: 14px;
+        text-anchor:end;
+        transform: translate(55px,-10px);
+      }
+      #urb-container3 #urb-chicago-graphic3 .x3.axis3 .tick text {
+        fill:#000;
+        font-size: 14px;
+        text-anchor:middle;
+      }
+      #urb-container3 #urb-chicago-graphic3 .y3.axis3 .tick line {
+        stroke:#A9BEC6;
+      }
+      #urb-container3 #urb-chicago-graphic3 .x3.axis3 .tick line {
+        stroke:#85A3AE;
+      }
+            @media screen and (max-width:720px) {
+        #urb-container3 .urb-container3-column {
+          float: left;
+          height: 58px;
+          margin: 0 0 14px 0;
+          overflow: hidden;
+          position: relative;
+          width: 100%;
+        }
+        #urb-container3 .urb-container3-column.ub-menu-opened3 {
+          overflow: visible;
+        }
+        #urb-container3 .urb-container3-chart {
+          padding: 0;
+          width: 100%;
+        }
+        #urb-container3 .urb-button-container {
+          background-color:#FFF;
+          border-radius: 14px;
+          border:1px solid #12719E;
+          cursor: pointer;
+          height: 52px;
+          margin: 0 0 20px 0;
+          padding: 6px;
+          position: absolute;
+          z-index: 10;
+        }
+        #urb-container3 .urb-container3-column.ub-menu-opened3 .urb-button-container {
+                      -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+                      -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+                  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+          height: 287px;
+          margin: 0 0 0 0;
+        }
+        #urb-container3 .urb-button-container p {
+          background-color:transparent;
+          background-image: url("../img/bg-triangle.png");
+          background-repeat: no-repeat;
+          background-position: center 36px;
+          background-size: 18px 16px;
+          color:#FFF;
+          display: block;
+          float:left; 
+          font-family: 'Lato', Arial, Helvetica, sans-serif;
+          font-size:18px;
+          font-weight: bold;
+          height: 52px;
+          line-height: 38px;
+          text-align: center;
+          width: 100%;
+        }
+        #urb-container3 .urb-container3-column.ub-menu-opened3 .urb-button-container p {
+          display: none;
+        }
+        #urb-container3 .urb-button-container p span {
+          background-color:#12719E;
+          border-radius: 8px;
+          color:#FFF;
+          display: block;
+          float:left; 
+          font-family: 'Lato', Arial, Helvetica, sans-serif;
+          font-weight: bold;
+          height: 38px;
+          line-height: 38px;
+          text-align: center;
+          width: 100%;
+        }       
+        #urb-container3 .urb-button-container .urb-button {
+          background-color:#eaeaea;
+          border-radius: 0px;
+          color:#000000;
+          cursor:pointer;
+          display:block;
+          float:left;
+          font-family: 'Lato', Arial, Helvetica, sans-serif;
+          font-size:18px;
+          font-weight:normal;
+          height:39px;
+          line-height:38px;
+          margin:0;
+          padding:0 15px;
+          text-align:center;
+          text-decoration: none;
+          width:100%;
+        }
+        #urb-container3 .urb-button-container .urb-button.urb-button-01 {
+          border-top-left-radius: 8px;
+          border-top-right-radius: 8px;
+        } 
+        #urb-container3 .urb-button-container .urb-button.urb-button-07 {
+          border-bottom-left-radius: 8px;
+          border-bottom-right-radius: 8px;
+        }
+        #urb-container3 .urb-button-container .urb-button span {
+          border-bottom: 1px solid #85a3ae;
+          display: block;
+          width: 100%;
+        }
+        #urb-container3 .urb-button-container .urb-button:last-of-type span {
+          border-bottom: none;
+        }
+            }
+            @media screen and (max-width:560px) {}
+      @media screen and (max-width:480px) {
+        #urb-container3 h2 {
+          font-size:20px;
+          line-height:24px;
+          padding-bottom: 7px;
+        }
+      }
+/************************** END GRAPHIC 3 **************************/
+/************************** BEGIN GRAPHIC 4 **************************/
+      #urb-container4 {
+        box-sizing:border-box;
+        display:block;
+        float:left;
+        font-family: 'Lato', Arial, Helvetica, sans-serif;
+    /*    max-height:1140px;*/
+        max-width:760px; 
+        height: 620px; /* Added by Urban */
+        padding:0px;
+        position:relative;
+      }
+      #urb-container4 strong {
+        font-family: 'Lato', Arial, Helvetica, sans-serif;
+        font-weight: bold;
+      }
+      #urb-container4 * {
+        box-sizing:border-box;
+        margin:0;
+        padding:0;
+        font-size:16px;
+      }
+      #urb-container4 h2 {
+        color:#000000;
+        font-family: 'Lato', Arial, Helvetica, sans-serif;
+        font-size:22px !important;
+        font-weight:bold;
+        height: 66px;
+        line-height:26px;
+        margin-bottom:0px;
+        margin-top:0px;
+        padding-bottom:10px;
+      }
+      #urb-container4 h3 {
+        color:#000000;
+        font-family: 'Lato', Arial, Helvetica, sans-serif;
+        font-size:18px;
+        font-style: italic;
+        font-weight:normal;;
+        line-height:22px;
+        margin-bottom:0px;
+        margin-top:0px;
+        padding-bottom:10px;
+      }
+      #urb-container4 h2 span {
+        color:#1695d1;
+        font-size:22px !important;
+      }
+      #urb-container4 .urb-container4-column {
+        display: block;
+        float: left;
+        width: 15%;
+      }
+      #urb-container4 .urb-container4-chart {
+        display: block;
+        float: left;
+        padding: 0 0 0 20px;
+        width: 85%;
+      }     
+      #urb-container4 #urb-graphic-container4 {
+          display: inline-block;
+          position: relative;
+          width: 100%;
+          padding-bottom: 0%; /* aspect ratio */
+          vertical-align: top;
+          overflow: hidden;
+      }
+      #urb-container4 .urb-button-container {
+        display:block;
+        float:left;
+        height:auto;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        width:100%;
+      }
+      #urb-container4 .urb-button-container p {
+        display: none;
+      }
+      #urb-container4 .urb-button-container .urb-button {
+        background-color:#eaeaea;
+        border-radius: 5px;
+        color:#000000;
+        cursor:pointer;
+        display:block;
+        float:left;
+        font-family: 'Lato', Arial, Helvetica, sans-serif;
+        font-size:14px;
+        font-weight:normal;
+        height:30px;
+        line-height:30px;
+        margin:0 0 8px 0;
+        padding:0;
+        text-align:center;
+        text-decoration: none;
+        width:100%;
+      }
+      #urb-container4 .urb-button-container .urb-button:hover {
+        background-color:#BBBBBB;
+      }
+      #urb-container4 .urb-button-container .urb-button.urb-active4 {
+        background-color:#12719e;
+        color:#FFF;
+        font-weight: bold;
+      }
+      #urb-container4 .urb-button-container .urb-button.urb-active4:hover {
+        background-color:#1695d1;
+      }
+      #urb-container4 #urb-chicago-graphic4 .urb-bars4-asian text,
+      #urb-container4 #urb-chicago-graphic4 .urb-bars4-black text,
+      #urb-container4 #urb-chicago-graphic4 .urb-bars4-latine text,
+      #urb-container4 #urb-chicago-graphic4 .urb-bars4-white text {
+        fill:#000;
+        font-weight: normal;
+      }
+      #urb-container4 #urb-chicago-graphic4 .urb-bars4-asian-title .urb-bars4-asian-title-blue {
+        fill:#73b9e2;
+        font-weight: bold;
+      }
+      #urb-container4 #urb-chicago-graphic4 .urb-bars4-black-title .urb-bars4-black-title-blue {
+        fill:#1695d1;
+        font-weight: bold;
+      }
+      #urb-container4 #urb-chicago-graphic4 .urb-bars4-latine-title .urb-bars4-latine-title-blue {
+        fill:#12719e;
+        font-weight: bold;
+      }
+      #urb-container4 #urb-chicago-graphic4 .urb-bars4-white-title .urb-bars4-white-title-blue {
+        fill:#0a4c6a;
+        font-weight: bold;
+      }
+      #urb-container4 #urb-chicago-graphic4 .urb-bars4-asian .urb-bars4-labels,
+      #urb-container4 #urb-chicago-graphic4 .urb-bars4-black .urb-bars4-labels,
+      #urb-container4 #urb-chicago-graphic4 .urb-bars4-latine .urb-bars4-labels,
+      #urb-container4 #urb-chicago-graphic4 .urb-bars4-white .urb-bars4-labels {
+        font-size: 14px;
+      }
+      #urb-container4 #urb-chicago-graphic4 .x4.axis4 .tick text {
+        fill:#000;
+        font-size: 14px;
+        text-anchor:middle;
+      }
+      #urb-container4 #urb-chicago-graphic4 .y4.axis4 path {
+        display: none;
+      }
+      #urb-container4 #urb-chicago-graphic4 .y4.axis4 .tick text {
+        fill:#000;
+        font-size: 14px;
+        text-anchor:end;
+      }
+      #urb-container4 #urb-chicago-graphic4 .y4.axis4 .tick line {
+        display: none;
+      }
+      #urb-container4 #urb-chicago-graphic4 .urb-bars4-asian text:nth-of-type(5),
+      #urb-container4 #urb-chicago-graphic4 .urb-bars4-latine text:nth-of-type(5) {
+        display: none;
+      }
+            @media screen and (max-width:720px) {
+        #urb-container4 .urb-container4-column {
+          float: left;
+          height: 58px;
+          margin: 0 0 14px 0;
+          overflow: hidden;
+          position: relative;
+          width: 100%;
+        }
+        #urb-container4 .urb-container4-column.ub-menu-opened4 {
+          overflow: visible;
+        }
+        #urb-container4 .urb-container4-chart {
+          padding: 0;
+          width: 100%;
+        }
+        #urb-container4 .urb-button-container {
+          background-color:#FFF;
+          border-radius: 14px;
+          border:1px solid #12719E;
+          cursor: pointer;
+          height: 52px;
+          margin: 0 0 20px 0;
+          padding: 6px;
+          position: absolute;
+          z-index: 10;
+        }
+        #urb-container4 .urb-container4-column.ub-menu-opened4 .urb-button-container {
+                      -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+                      -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+                  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+          height: 287px;
+          margin: 0 0 0 0;
+        }
+        #urb-container4 .urb-button-container p {
+          background-color:transparent;
+          background-image: url("../img/bg-triangle.png");
+          background-repeat: no-repeat;
+          background-position: center 36px;
+          background-size: 18px 16px;
+          color:#FFF;
+          display: block;
+          float:left; 
+          font-family: 'Lato', Arial, Helvetica, sans-serif;
+          font-size:18px;
+          font-weight: bold;
+          height: 52px;
+          line-height: 38px;
+          text-align: center;
+          width: 100%;
+        }
+        #urb-container4 .urb-container4-column.ub-menu-opened4 .urb-button-container p {
+          display: none;
+        }
+        #urb-container4 .urb-button-container p span {
+          background-color:#12719E;
+          border-radius: 8px;
+          color:#FFF;
+          display: block;
+          float:left; 
+          font-family: 'Lato', Arial, Helvetica, sans-serif;
+          font-weight: bold;
+          height: 38px;
+          line-height: 38px;
+          text-align: center;
+          width: 100%;
+        }       
+        #urb-container4 .urb-button-container .urb-button {
+          background-color:#eaeaea;
+          border-radius: 0px;
+          color:#000000;
+          cursor:pointer;
+          display:block;
+          float:left;
+          font-family: 'Lato', Arial, Helvetica, sans-serif;
+          font-size:18px;
+          font-weight:normal;
+          height:39px;
+          line-height:38px;
+          margin:0;
+          padding:0 15px;
+          text-align:center;
+          text-decoration: none;
+          width:100%;
+        }
+        #urb-container4 .urb-button-container .urb-button.urb-button-01 {
+          border-top-left-radius: 8px;
+          border-top-right-radius: 8px;
+        } 
+        #urb-container4 .urb-button-container .urb-button.urb-button-07 {
+          border-bottom-left-radius: 8px;
+          border-bottom-right-radius: 8px;
+        }
+        #urb-container4 .urb-button-container .urb-button span {
+          border-bottom: 1px solid #85a3ae;
+          display: block;
+          width: 100%;
+        }
+        #urb-container4 .urb-button-container .urb-button:last-of-type span {
+          border-bottom: none;
+        }
+            }
+      @media screen and (max-width:480px) {
+        #urb-container4 h2 {
+          font-size:20px;
+          line-height:24px;
+          padding-bottom: 7px;
+        }
+        #urb-container4 h3 {
+          font-size:16px;
+          line-height:20px;
+          padding-bottom: 7px;
+        }
+      }
+/************************** END GRAPHIC 4 **************************/
+/************************** BEGIN GRAPHIC 5 **************************/
+      #urb-container5 {
+        box-sizing:border-box;
+        display:block;
+        float:left;
+        font-family: 'Lato', Arial, Helvetica, sans-serif;
+    /*    max-height:1140px;*/
+        max-width:760px;
+        height: 265px; /* Added by Urban */
+        padding:0px;
+        position:relative;
+      }
+      #urb-container5 strong {
+        font-family: 'Lato', Arial, Helvetica, sans-serif;
+        font-weight: bold;
+      }
+      #urb-container5 * {
+        box-sizing:border-box;
+        margin:0;
+        padding:0;
+      }
+      #urb-container5 h2 {
+        color:#000000;
+        font-family: 'Lato', Arial, Helvetica, sans-serif;
+        font-size:20px;
+        font-weight:bold;
+        line-height:24px;
+        margin-bottom:0px;
+        margin-top:0px;
+        padding-bottom:10px;
+      }
+      #urb-container5 h3 {
+        color:#000000;
+        font-family: 'Lato', Arial, Helvetica, sans-serif;
+        font-size:18px;
+        font-style: italic;
+        font-weight:normal;;
+        line-height:22px;
+        margin-bottom:0px;
+        margin-top:0px;
+        padding-bottom:10px;
+      }
+      #urb-container5 h2 span {
+        color:#1695d1;
+      }
+      #urb-container5 .urb-container5-column {
+        display: block;
+        float: left;
+        width: 15%;
+      }
+      #urb-container5 .urb-container5-chart {
+        display: block;
+        float: left;
+        padding: 0 0 0 20px;
+        width: 85%;
+      }     
+      #urb-container5 #urb-graphic-container5 {
+          display: inline-block;
+          position: relative;
+          width: 100%;
+          padding-bottom: 0%; /* aspect ratio */
+          vertical-align: top;
+          overflow: hidden;
+      }
+      #urb-container5 .urb-button-container {
+        display:block;
+        float:left;
+        height:auto;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        width:100%;
+      }
+      #urb-container5 .urb-button-container p {
+        display: none;
+      }
+      #urb-container5 .urb-button-container .urb-button {
+        background-color:#eaeaea;
+        border-radius: 5px;
+        color:#000000;
+        cursor:pointer;
+        display:block;
+        float:left;
+        font-family: 'Lato', Arial, Helvetica, sans-serif;
+        font-size:14px;
+        font-weight:normal;
+        height:30px;
+        line-height:30px;
+        margin:0 0 8px 0;
+        padding:0;
+        text-align:center;
+        text-decoration: none;
+        width:100%;
+      }
+      #urb-container5 .urb-button-container .urb-button:hover {
+        background-color:#BBBBBB;
+      }
+      #urb-container5 .urb-button-container .urb-button.urb-active5 {
+        background-color:#12719e;
+        color:#FFF;
+        font-weight: bold;
+      }
+      #urb-container5 .urb-button-container .urb-button.urb-active5:hover {
+        background-color:#1695d1;
+      }
+      #urb-container5 #urb-chicago-graphic5 .urb-bars5-asian text {
+        fill:#000;
+        font-weight: normal;
+      }
+      
+      #urb-container5 #urb-chicago-graphic5 .urb-bars5-labels {
+        font-size: 14px;
+      }
+
+      #urb-container5 #urb-chicago-graphic5 .x5.axis5 .tick text {
+        fill:#000;
+        font-size: 14px;
+        text-anchor:middle;
+      }
+      #urb-container5 #urb-chicago-graphic5 .y5.axis5 path {
+        display: none;
+      }
+      #urb-container5 #urb-chicago-graphic5 .y5.axis5 .tick text {
+        fill:#000;
+        font-size: 14px;
+        text-anchor:end;
+      }
+      #urb-container5 #urb-chicago-graphic5 .y5.axis5 .tick line {
+        display: none;
+      }
+            @media screen and (max-width:720px) {
+        #urb-container5 .urb-container5-column {
+          float: left;
+          height: 58px;
+          margin: 0 0 14px 0;
+          overflow: hidden;
+          position: relative;
+          width: 100%;
+        }
+        #urb-container5 .urb-container5-column.ub-menu-opened5 {
+          overflow: visible;
+        }
+        #urb-container5 .urb-container5-chart {
+          padding: 0;
+          width: 100%;
+        }
+        #urb-container5 .urb-button-container {
+          background-color:#FFF;
+          border-radius: 14px;
+          border:1px solid #12719E;
+          cursor: pointer;
+          height: 52px;
+          margin: 0 0 20px 0;
+          padding: 6px;
+          position: absolute;
+          z-index: 10;
+        }
+        #urb-container5 .urb-container5-column.ub-menu-opened5 .urb-button-container {
+                      -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+                      -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+                  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+          height: 287px;
+          margin: 0 0 0 0;
+        }
+        #urb-container5 .urb-button-container p {
+          background-color:transparent;
+          background-image: url("../img/bg-triangle.png");
+          background-repeat: no-repeat;
+          background-position: center 36px;
+          background-size: 18px 16px;
+          color:#FFF;
+          display: block;
+          float:left; 
+          font-family: 'Lato', Arial, Helvetica, sans-serif;
+          font-size:18px;
+          font-weight: bold;
+          height: 52px;
+          line-height: 38px;
+          text-align: center;
+          width: 100%;
+        }
+        #urb-container5 .urb-container5-column.ub-menu-opened5 .urb-button-container p {
+          display: none;
+        }
+        #urb-container5 .urb-button-container p span {
+          background-color:#12719E;
+          border-radius: 8px;
+          color:#FFF;
+          display: block;
+          float:left; 
+          font-family: 'Lato', Arial, Helvetica, sans-serif;
+          font-weight: bold;
+          height: 38px;
+          line-height: 38px;
+          text-align: center;
+          width: 100%;
+        }       
+        #urb-container5 .urb-button-container .urb-button {
+          background-color:#eaeaea;
+          border-radius: 0px;
+          color:#000000;
+          cursor:pointer;
+          display:block;
+          float:left;
+          font-family: 'Lato', Arial, Helvetica, sans-serif;
+          font-size:18px;
+          font-weight:normal;
+          height:39px;
+          line-height:38px;
+          margin:0;
+          padding:0 15px;
+          text-align:center;
+          text-decoration: none;
+          width:100%;
+        }
+        #urb-container5 .urb-button-container .urb-button.urb-button-01 {
+          border-top-left-radius: 8px;
+          border-top-right-radius: 8px;
+        } 
+        #urb-container5 .urb-button-container .urb-button.urb-button-07 {
+          border-bottom-left-radius: 8px;
+          border-bottom-right-radius: 8px;
+        }
+        #urb-container5 .urb-button-container .urb-button span {
+          border-bottom: 1px solid #85a3ae;
+          display: block;
+          width: 100%;
+        }
+        #urb-container5 .urb-button-container .urb-button:last-of-type span {
+          border-bottom: none;
+        }
+            }
+      @media screen and (max-width:480px) {
+        #urb-container5 h2 {
+          font-size:20px;
+          line-height:24x;
+          padding-bottom: 7px;
+        }
+        #urb-container5 h3 {
+          font-size:16px;
+          line-height:20px;
+          padding-bottom: 7px;
+        }
+      }
+/************************** END GRAPHIC 5 **************************/
+/************************** BEGIN GRAPHIC 6 **************************/
+      #urb-tooltip6 {
+                background-color: #FFF;
+                    -webkit-border-radius: 5px;
+                    -moz-border-radius: 5px;
+                border-radius: 5px;
+                    -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+                    -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+                box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+                height: auto;
+              padding: 15px;
+              opacity: 1;
+              pointer-events: none;
+                position: absolute;
+              width: 150px;
+              z-index: 1000;
+            }
+            #urb-tooltip6.hidden {
+              display: none;
+            }
+            #urb-tooltip6 p {
+        color:#000;
+                margin: 0;
+        font-family: 'Lato', Arial, Helvetica, sans-serif;
+        font-weight: normal;
+                font-size: 16px;
+                line-height: 20px;
+            }
+      #urb-tooltip6 p .urb-tooltip-tract {
+        color:#1695d1;
+        font-weight:bold;
+      }
+      #urb-tooltip6 p .urb-tooltip-percentile {
+        font-weight:bold;
+      }
+      #urb-container6 {
+        box-sizing:border-box;
+        display:block;
+        float:left;
+        font-family: 'Lato', Arial, Helvetica, sans-serif;
+    /*    max-height:1140px;*/
+        max-width:1160px;
+        height: 950px; /* Added by Urban */
+        padding:20px;
+        position:relative;
+      }
+      #urb-container6 strong {
+        font-family: 'Lato', Arial, Helvetica, sans-serif;
+        font-weight: bold;
+      }
+      #urb-container6 * {
+        box-sizing:border-box;
+        margin:0;
+        padding:0;
+      }
+      #urb-container6 h2 {
+        color:#000000;
+        font-family: 'Lato', Arial, Helvetica, sans-serif;
+        font-size:22px;
+        font-weight:bold;
+        line-height:26px;
+        margin-bottom:0px;
+        margin-top:0px;
+        padding-bottom:10px;
+      }     
+      #urb-container6 h3 {
+        color:#000000;
+        font-family: 'Lato', Arial, Helvetica, sans-serif;
+        font-size:20px;
+        font-weight:400;
+        line-height:24px;
+        margin-bottom:0px;
+        margin-top:0px;
+        padding-bottom:10px;
+      }
+      #urb-container6 .urb-container6-column {
+        display: block;
+        float: right;
+        width: 30%;
+      }
+      #urb-container6 .urb-container6-map {
+        display: block;
+        float: left;
+        width: 70%;
+      }     
+      #urb-container6 .urb-data {
+        display:block;
+        float:left;
+        height: 230px;
+        margin: 0 0 0 0;
+        width:100%;
+      }
+      #urb-container6 .urb-data.urb-data-small {
+        display:none;
+      }
+      #urb-container6 .urb-data p {
+        color:#000000;
+        font-family: 'Lato', Arial, Helvetica, sans-serif;
+        font-size:18px;
+        font-weight:normal;
+        line-height:28px;
+        margin:0;
+      }
+      #urb-container6 .urb-data p.urb-data-before {
+        display: block;
+      }
+      #urb-container6 .urb-data p.urb-data-hover {
+        display: none;
+      }
+      #urb-container6 .urb-data p .urb-data-unit {
+        color:#1695d1;
+        font-weight:bold;
+      }
+      #urb-container6 .urb-graphic-container6 {
+          display: inline-block;
+          position: relative;
+          width: 100%;
+          padding-bottom: 0%; /* aspect ratio */
+          vertical-align: top;
+          overflow: hidden;
+      }
+      #urb-container6 .urb-map-scale {
+        bottom:0;
+        position:absolute;
+        left:0;
+        width:180px;
+      }
+      #urb-container6 .urb-map-scale .urb-action-title {
+        color:#1D1D1B;
+        font-family: 'Lato', Arial, Helvetica, sans-serif;
+        font-size:18px;
+        font-style: italic;
+        font-weight:600;
+        line-height: 22px;
+        margin: 0 0 12px 0;
+      }
+      #urb-container6 .urb-map-scale ul {
+        background-color:transparent;
+        display:block;
+        height:170px;
+        margin:0;
+        padding:0;
+        width:100%;
+      }
+      #urb-container6 .urb-map-scale ul li {
+        display: block;
+        float: left;
+        height: 24px;
+        margin: 0 0 10px 0;
+        width: 100%;
+      }
+      #urb-container6 .urb-map-scale ul li span.urb-map-scale-number {
+        border:none;
+        color:#000000;
+        display:block;
+        float: left;
+        font-family: 'Lato', Arial, Helvetica, sans-serif;
+        font-size:16px;
+        font-weight:normal;
+        height:24px;
+        line-height:24px;
+        list-style:none;
+        margin: 0 0 0 10px;
+        text-transform:uppercase;
+      }
+      #urb-container6 .urb-map-scale ul li span.urb-map-scale-color {
+        display:block;
+        float: left;
+        height:24px;
+        margin: 0;
+        padding:0;
+        width:24px;
+      }
+      #urb-container6 .urb-map-scale ul li.urb-0 span.urb-map-scale-color {
+        background-color:#CFE8F3;
+      }
+      #urb-container6 .urb-map-scale ul li.urb-20 span.urb-map-scale-color {
+        background-color:#73B9E2;
+      }
+      #urb-container6 .urb-map-scale ul li.urb-40 span.urb-map-scale-color {
+        background-color:#1695D1;
+      }
+      #urb-container6 .urb-map-scale ul li.urb-60 span.urb-map-scale-color {
+        background-color:#12719E;
+      }
+      #urb-container6 .urb-map-scale ul li.urb-80 span.urb-map-scale-color {
+        background-color:#0A4C6A;
+      }
+      #urb-container6 .urb-map-scale a
+      #urb-container6 .urb-map-scale a[href^=tel],
+      #urb-container6 .urb-map-scale a[x-apple-data-detectors],
+      #urb-container6 .urb-map-scale ul li a,
+      #urb-container6 .urb-map-scale ul li a[href^=tel],
+      #urb-container6 .urb-map-scale ul li a[x-apple-data-detectors],
+      #urb-container6 .urb-map-scale ul li span a,
+      #urb-container6 .urb-map-scale ul li span a[href^=tel],
+      #urb-container6 .urb-map-scale ul li span a[x-apple-data-detectors] {
+        color: #000 !important;
+        text-decoration: none !important;
+      }
+      #urb-container6 .urb-map-scale .urb-check-text,
+      #urb-container6 .urb-map-scale .urb-check-text.urb-check-text-visible {
+        display: none;
+      }
+      #urb-container6 .urb-button-container {
+        border-top: 1px solid #B1B1B1;
+        display:block;
+        float:left;
+        height:auto;
+        margin: 30px 0 0 0;
+        padding: 30px 0 0 0;
+        position: relative;
+        width:100%;
+      }
+      #urb-container6 .urb-button-container p.urb-dropdown-title {
+        display: none;
+      }
+      #urb-container6 .urb-button-container .urb-action-title,
+      #urb-container6 .urb-button-container2 .urb-action-title2 {
+        color:#1D1D1B;
+        font-family: 'Lato', Arial, Helvetica, sans-serif;
+        font-size:18px;
+        font-style: italic;
+        font-weight:600;
+        line-height: 22px;
+        margin: 0 0 12px 0;
+        text-align: center;
+      }
+      #urb-container6 .urb-button-container .urb-button {
+        background-color:#eaeaea;
+        border-radius: 5px;
+        color:#000000;
+        cursor:pointer;
+        display:block;
+        float:left;
+        font-family: 'Lato', Arial, Helvetica, sans-serif;
+        font-size:16px;
+        font-weight:boldl;
+        height:34px;
+        line-height:34px;
+        margin:0 1% 10px 0;
+        padding:0;
+        text-align:center;
+        text-decoration: none;
+        width:49%;
+      }
+      #urb-container6 .urb-button-container .urb-button.urb-button-01 {
+        margin:0 0 10px 0;
+        width:100%;
+      }
+      #urb-container6 .urb-button-container .urb-button.urb-button-03,
+      #urb-container6 .urb-button-container .urb-button.urb-button-05,
+      #urb-container6 .urb-button-container .urb-button.urb-button-07 {
+        margin:0 0 10px 1%;
+      }
+      #urb-container6 .urb-button-container .urb-button:hover {
+        background-color:#BBBBBB;
+      }
+      #urb-container6 .urb-button-container .urb-button.urb-active6 {
+        background-color:#12719e;
+        color:#FFF;
+        font-weight: bold;
+      }
+      #urb-container6 .urb-button-container .urb-button.urb-active6:hover {
+        background-color:#1695d1;
+      }
+      #urb-container6 .urb-button-container2 {
+        background-color: transparent;
+        border-top: 1px solid #B1B1B1;
+        display:block;
+        float:left;
+        height:auto;
+        margin: 30px 0 0 0;
+        padding: 30px 0 0 0;
+        width:100%;
+      }
+      #urb-container6 .urb-button-container2 .urb-button-container2-left {
+        border-right: 1px solid #B1B1B1;
+        display:block;
+        float:left;
+        height:auto;
+        margin: 0;
+        padding: 0 8% 0 0;
+        width:50%;
+      }
+      #urb-container6 .urb-button-container2 .urb-button-container2-right {
+        display:block;
+        float:left;
+        height:auto;
+        margin: 0;
+        padding: 0;
+        width:42%;
+      }
+      #urb-container6 .urb-button-container2 .urb-button-container2-center {
+        display:block;
+        float:left;
+        height:auto;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        width:8%;
+      }
+      #urb-container6 .urb-button-container2 .urb-button-container2-center p {
+        background-color: #FFF;
+        color:#12719e;
+        font-size: 20px;
+        font-style: oblique;
+        font-weight: bold;
+        line-height: 28px;
+        margin: 0 0 0 -29px;
+        text-transform: uppercase;
+      }     
+      #urb-container6 .urb-button-container2 .urb-check {
+        color:#000;
+        cursor:pointer;
+        display:block;
+        float:left;
+        font-family: 'Lato', Arial, Helvetica, sans-serif;
+        font-size:18px;
+        font-weight:normal;
+        height:34px;
+        line-height:34px;
+        margin: 5px 0;
+        text-decoration:none;
+        width: 100%;
+      }
+      #urb-container6 .urb-button-container2 .urb-check.urb-check-nomajority {
+        height:44px;
+        line-height:22px;
+        margin: 5px 0;
+        text-decoration:none;
+      }
+      #urb-container6 .urb-button-container2 .urb-check span {
+        font-size:11px;
+      }
+      #urb-container6 .urb-button-container2 .urb-check .urb-check-button {
+        background-color:transparent;
+        border:3px solid #cacaca;
+          -webkit-border-radius: 50%;
+          -moz-border-radius: 50%;
+        border-radius: 50%;
+        cursor:pointer;
+        display:block;
+        float:left;
+        height:34px;
+        margin:0 6px 0 0;
+        padding:0;
+        vertical-align:middle;
+        width:34px;
+      }
+      #urb-container6 .urb-button-container2 .urb-check.urb-check-nomajority .urb-check-button {
+        margin:0 6px 10px 0;
+      }
+      #urb-container6 .urb-button-container2 .urb-check:hover .urb-check-button {
+        border:3px solid #898989;
+      }
+      #urb-container6 .urb-button-container2 .urb-check .urb-check-button span {
+        background-color: #cacaca;
+          -webkit-border-radius: 50%;
+          -moz-border-radius: 50%;
+        border-radius: 50%;
+        display:inline-block;
+        height:20px;
+        margin:3px 3px 3px 3px;
+        vertical-align:middle;
+        width:20px;
+      }
+      #urb-container6 .urb-button-container2 .urb-check:hover .urb-check-button span {
+        background-color: #898989;
+      }
+      #urb-container6 .urb-button-container2 .urb-check.urb-active6 {
+        color:#12719e;
+        font-weight: bold;
+      }
+      #urb-container6 .urb-button-container2 .urb-check.urb-active6:hover {
+        color:#1695d1;
+      }
+      #urb-container6 .urb-button-container2 .urb-check.urb-active6 .urb-check-button {
+        border:3px solid #12719e;
+      }
+      #urb-container6 .urb-button-container2 .urb-check.urb-active6:hover .urb-check-button {
+        border:3px solid #1695d1;
+      }
+      #urb-container6 .urb-button-container2 .urb-check.urb-active6 .urb-check-button span {
+        background-color: #12719e;
+      }
+      #urb-container6 .urb-button-container2 .urb-check.urb-active6:hover .urb-check-button span {
+        background-color: #1695d1;
+      }
+      #urb-container6 .urb-button-container2 .urb-clear6,
+      #urb-container6 .urb-data .urb-clear-tract6 {
+        clear: both;
+        color:#12719e;
+        cursor: pointer;
+        display: block;
+        float: left;
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 22px;
+        margin: 10px 0 0 0;
+        text-align: center;
+        visibility: hidden;
+        width: 100%;
+      }
+      #urb-container6 .urb-button-container2 .urb-clear6:hover,
+      #urb-container6 .urb-data .urb-clear-tract6:hover {
+        color:#1695d1;
+      }
+      #urb-container6 #urb-chicago-map path {
+        cursor:pointer;
+        fill:none;
+        stroke:#FFF;
+        stroke-width:0.5px;
+        transform:translate(0,-28px);
+      }
+      #urb-container6 #urb-chicago-map path:hover {
+        fill:#eb008a !important;
+      }
+      #urb-container6 #urb-chicago-map path.urb-active6 {
+        stroke:#eb008a;
+        stroke-width:2px;
+      }
+      #urb-container6 #urb-chicago-map .urb-map-partial path {
+        display: none;
+        fill:none !important;
+        stroke:#FDBF11;
+        stroke-width:2px;
+      }
+            @media screen and (max-width:720px) {
+        #urb-container6 .urb-container6-column {
+          float: left;
+          height: 58px;
+          margin: 0 0 14px 0;
+          overflow: hidden;
+          position: relative;
+          width: 100%;
+        }
+        #urb-container6 .urb-container6-column.ub-menu-opened6 {
+          overflow: visible;
+        }
+        #urb-container6 .urb-container6-map {
+          width: 100%;
+        }
+        #urb-container6 .urb-data.urb-data-big {
+          display:none;
+        }
+        #urb-container6 .urb-data.urb-data-small {
+          display:block;
+          margin: 15px 0 0 0;
+        }
+        #urb-container6 .urb-data.urb-data-small p {
+          font-size: 16px;
+          line-height: 24px;
+        }
+        #urb-container6 .urb-data .urb-clear-tract6-small {
+          clear: both;
+          color:#12719e;
+          cursor: pointer;
+          display: block;
+          float: left;
+          font-size: 16px;
+          font-weight: bold;
+          line-height: 20px;
+          margin: 10px 0;
+          text-align: center;
+          visibility: hidden;
+          width: 100%;
+        }
+        #urb-container6 .urb-data .urb-clear-tract6-small:hover {
+          color:#1695d1;
+        }
+        #urb-container6 .urb-button-container {
+          background-color:#FFF;
+          border-radius: 14px;
+          border:1px solid #12719E;
+          cursor: pointer;
+          height: 52px;
+          margin: 0 0 20px 0;
+          padding: 6px;
+          position: absolute;
+          z-index: 10;
+        }
+        #urb-container6 .urb-container6-column.ub-menu-opened6 .urb-button-container {
+                      -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+                      -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+                  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+          height: auto;
+          margin: 0 0 0 0;
+        }
+        #urb-container6 .urb-button-container p.urb-dropdown-title {
+          background-color:transparent;
+          background-image: url("../img/bg-triangle.png");
+          background-repeat: no-repeat;
+          background-position: center 36px;
+          background-size: 18px 16px;
+          color:#FFF;
+          display: block;
+          float:left; 
+          font-family: 'Lato', Arial, Helvetica, sans-serif;
+          font-size:18px;
+          font-weight: bold;
+          height: 52px;
+          line-height: 38px;
+          text-align: center;
+          width: 100%;
+        }
+        #urb-container6 .urb-container6-column.ub-menu-opened6 .urb-button-container p.urb-dropdown-title {
+          display: none;
+        }
+        #urb-container6 .urb-button-container .urb-action-title {
+          display: none;
+        }
+        #urb-container6 .urb-button-container2 .urb-action-title2 {
+          font-size:16px;
+          line-height: 20px;
+          margin: 0 0 8px 0;
+          text-align: left;
+        }
+        #urb-container6 .urb-button-container p span {
+          background-color:#12719E;
+          border-radius: 8px;
+          color:#FFF;
+          display: block;
+          float:left; 
+          font-family: 'Lato', Arial, Helvetica, sans-serif;
+          font-weight: bold;
+          height: 38px;
+          line-height: 38px;
+          text-align: center;
+          width: 100%;
+        }       
+        #urb-container6 .urb-button-container .urb-button {
+          background-color:#eaeaea;
+          border-radius: 0px;
+          color:#000000;
+          cursor:pointer;
+          display:block;
+          float:left;
+          font-family: 'Lato', Arial, Helvetica, sans-serif;
+          font-size:18px;
+          font-weight:normal;
+          height:39px;
+          line-height:38px;
+          margin:0;
+          padding:0 15px;
+          text-align:center;
+          text-decoration: none;
+          width:100%;
+        }
+        #urb-container6 .urb-button-container .urb-button.urb-button-01 {
+          border-top-left-radius: 8px;
+          border-top-right-radius: 8px;
+          margin: 0;
+        } 
+        #urb-container6 .urb-button-container .urb-button.urb-button-07 {
+          border-bottom-left-radius: 0px;
+          border-bottom-right-radius: 0px;
+        }
+        #urb-container6 .urb-button-container .urb-button.urb-button-03,
+        #urb-container6 .urb-button-container .urb-button.urb-button-05,
+        #urb-container6 .urb-button-container .urb-button.urb-button-07 {
+          margin:0;
+        }
+        #urb-container6 .urb-button-container .urb-button span {
+          border-bottom: 1px solid #85a3ae;
+          display: block;
+          width: 100%;
+        }
+        #urb-container6 .urb-button-container .urb-button:last-of-type span {
+        /*  border-bottom: none; */
+        }
+        #urb-container6 .urb-button-container2 {
+          background-color: #eaeaea;
+          border-top: none;
+          border-bottom-left-radius: 8px;
+          border-bottom-right-radius: 8px;
+          margin: 0;
+          padding: 15px 15px 0 15px;
+        }
+        #urb-container6 .urb-button-container2 .urb-button-container2-center p {
+          background-color: #eaeaea;
+          font-size: 18px;
+        }       
+        #urb-container6 .urb-button-container2 .urb-check {
+          font-size:16px;
+          height:28px;
+          line-height:28px;
+          margin: 2px 0;
+        }
+        #urb-container6 .urb-button-container2 .urb-check.urb-check-nomajority {
+          height:28px;
+          line-height:18px;
+          margin: 2px 0;
+        }
+        #urb-container6 .urb-button-container2 .urb-check .urb-check-button {
+          height:28px;
+          margin:0 5px 0 0;
+          width:28px;
+        }
+        #urb-container6 .urb-button-container2 .urb-check.urb-check-nomajority .urb-check-button {
+          margin:0 6px 10px 0;
+        }
+        #urb-container6 .urb-button-container2 .urb-check .urb-check-button span {
+          height:16px;
+          width:16px;
+        }
+        #urb-container6 .urb-button-container2 .urb-clear6 {
+          font-size: 16px;
+          line-height: 20px;
+          margin: 10px 0 10px 0;
+        }
+        #urb-container6 .urb-map-scale {
+          width: 100px;
+        }
+        #urb-container6 .urb-map-scale .urb-check-text {
+          border-bottom: 1px solid #B1B1B1;
+          color:#FDBF11;
+          display: none;
+          font-family: 'Lato', Arial, Helvetica, sans-serif;
+          font-size: 15px;
+          font-weight: bold;
+          line-height: 18px;
+          margin: 0 0 8px 0;
+          padding: 0 0 10px 0;
+          width: 100%;
+        }
+        #urb-container6 .urb-map-scale .urb-check-text.urb-check-text-visible {
+          display: block;
+        }
+        #urb-container6 .urb-map-scale .urb-check-text span {
+          display: block;
+        }
+      }     
+            @media screen and (max-width:560px) {
+        #urb-container6 .urb-map-scale .urb-action-title {
+          font-size:16px;
+          line-height: 20px;
+          margin: 0 0 10px 0;
+        }       
+        #urb-container6 .urb-map-scale ul {
+          height:125px;
+        }       
+        #urb-container6 .urb-map-scale ul li {
+          height: 18px;
+          margin: 0 0 7px 0;
+        }
+        #urb-container6 .urb-map-scale ul li span.urb-map-scale-number {
+          font-size:14px;
+          height:18px;
+          line-height:18px;
+          margin: 0 0 0 7px;
+        }
+        #urb-container6 .urb-map-scale ul li span.urb-map-scale-color {
+          height:18px;
+          width:18px;
+        }              
+            }
+      @media screen and (max-width:480px) {
+        #urb-container6 h2 {
+          font-size:20px;
+          line-height:24px;
+          padding-bottom: 7px;
+        }
+        #urb-container6 .urb-map-scale .urb-action-title {
+          font-size:15px;
+          line-height: 18px;
+          margin: 0 0 8px 0;
+        }
+        #urb-container6 .urb-map-scale ul {
+          height:110px;
+        }
+        #urb-container6 .urb-map-scale ul li {
+          height: 16px;
+          margin: 0 0 6px 0;
+        }
+        #urb-container6 .urb-map-scale ul li span.urb-map-scale-number {
+          font-size:14px;
+          height:16px;
+          line-height:16px;
+          margin: 0 0 0 6px;
+        }
+        #urb-container6 .urb-map-scale ul li span.urb-map-scale-color {
+          height:16px;
+          width:16px;
+        } 
+      }
+/************************** END GRAPHIC 6 **************************/
