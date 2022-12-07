@@ -1031,7 +1031,17 @@
           border-bottom: none;
         }
             }
+      
+      @media screen and (min-width: 650px) and (max-width:720px) { /* Added by Urban */
+        #urb-container4 {                                          /* Added by Urban */
+          height: 700px;                                           /* Added by Urban */
+        }                                                          /* Added by Urban */
+      }                                                            /* Added by Urban */
+
       @media screen and (max-width:480px) {
+        #urb-container4 { /* Added by Urban */
+          height: 500px;  /* Added by Urban */
+        }                 /* Added by Urban */
         #urb-container4 h2 {
           font-size:20px;
           line-height:24px;
@@ -1276,6 +1286,13 @@
           border-bottom: none;
         }
             }
+
+      @media screen and (min-width: 480px) and (max-width:720px) { /* Added by Urban */
+        #urb-container5 {                                          /* Added by Urban */
+          height: 290px;                                           /* Added by Urban */
+        }                                                          /* Added by Urban */
+      }   
+
       @media screen and (max-width:480px) {
         #urb-container5 h2 {
           font-size:20px;
